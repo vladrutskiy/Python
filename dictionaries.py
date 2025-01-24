@@ -2,10 +2,10 @@
 # hello
 # This 
 # is 
-# ammout
+# amount
 
 """And this is is for multiple
-lines quatation
+lines quotation
 """
 
 pets_love = {
