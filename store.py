@@ -33,3 +33,4 @@ for name_cart, cost_cart in cart:
         total=total+cost_cart
 print("Total is",total)
 print("Thank you, come again!")
+print(type(inventory))
