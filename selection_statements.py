@@ -65,6 +65,7 @@ while True:
     user_selection = int(input("Please enter the number of the item: "))
 
     cart.append(inventory[user_selection - 1])
+    
 
     # todo exit on checkout
     
