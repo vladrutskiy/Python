@@ -1,11 +1,14 @@
+# trying to check login and passwords from list
+from usernames_passwords import login_password_list
+
 # Created a new login function
-correct_user_name = "rory"
-correct_password = "hello"
+correct_user_name = login_password_list.correct_login
+correct_password = login_password_list.correct_pass1
 attempt1 = 0
 attempt2 = 2
 def login2 ():
     user_name = input("Please enter user name: \n").lower()
-    user_pass = input ("Please eneter password: \n").lower()
+    user_pass = input ("Please enter password: \n").lower()
     
     if user_name == correct_user_name and user_pass == correct_password:
         return True
