@@ -1,4 +1,12 @@
+# adding a login functionality to this shop
+import login_function
 
+# triggering login
+login_function.check_credentials("1", "2")
+
+# the shop functionality
+
+# the inventory (should be refactored as a separate file)
 inventory=[
     ("milk", 4.99),
     ("bread", 3.5),

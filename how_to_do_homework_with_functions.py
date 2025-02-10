@@ -1,5 +1,11 @@
 """An example of how to create a command line selection process for a fictional storefront."""
 
+from training import login_function
+
+login_function()
+
+
+
 _inventory = [
     ("Nintendo Switch 2", 999.99),
     ("BBQ Chips", 3.50),
