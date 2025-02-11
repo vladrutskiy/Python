@@ -24,7 +24,7 @@ cart = []
 
 def display_inventory():
     """Displays the list of items in the inventory."""
-    print("\n , Please select an item to purchase:")
+    print("\n Please select an item to purchase:")
     for index, (name, cost) in enumerate(inventory, start=1):
         print(f"  {index}. {name}: ${cost:.2f}")
 
