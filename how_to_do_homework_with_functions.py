@@ -2,7 +2,7 @@
 
 from training import login_function
 
-login_function()
+login_function("1", "2")
 
 
 
