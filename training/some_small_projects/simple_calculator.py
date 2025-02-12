@@ -32,5 +32,5 @@ try:
         else:
             print("invalid input")
 
-except:
+except:  # noqa: E722
     print("wrong choice, try again")
