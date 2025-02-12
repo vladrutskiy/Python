@@ -27,5 +27,5 @@ def check_answers():
         except:  # noqa: E722
             score -= 1
             print("The entered reply isn't in scope. -1 point for you, you have:", score, "points \n")
-    print("Congratulations, you ended the quiz, your score is:", score)           
+    print("Congratulations, you ended the quiz, your score is:", score )           
 check_answers()
