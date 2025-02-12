@@ -38,38 +38,3 @@ while running:
 #    print("something")
 #    while (False)
 
-inventory=[
-    ("milk", 4.99),
-    ("bread", 3.5),
-    ("cottage cheese", 6.02),
-    ("Sega Mega Drive 2", 99.99),
-    ("Apple gift card", 50.00),
-    ("New year tree", 85.75),
-    ("PS 5", 699.99),
-    ("Google gift card", 25.00)
-]
-
-cart = []
-
-while True:
-    print (" please select an item: ")
-
-    # todo print some inventory
-    index = 0
-    for name, cost in inventory:
-               index = index + 1
-               print(f"  {index}.  {name}: ${cost}")
-              
-
-    # todo get the user selection
-    user_selection = int(input("Please enter the number of the item: "))
-
-    cart.append(inventory[user_selection - 1])
-    
-
-    # todo exit on checkout
-    
-    
-    # break
-
-print("Thank you, ")
