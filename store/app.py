@@ -1,8 +1,11 @@
 """An example of how to create a command line selection process for a fictional storefront."""
 
-from store import inventory
-from store import cart
-from store import cli
+# from store import inventory
+# from store import cart
+# from store import cli
+import inventory
+import cart
+import cli
 
 # Prompt user to enter selection
 cli.welcome_prompt()
