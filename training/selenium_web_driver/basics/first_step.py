@@ -5,7 +5,7 @@ from selenium import webdriver
 driver = webdriver.Chrome()
 
 # Open a website
-driver.get("https://bdgl--partialc.sandbox.lightning.force.com/")
+driver.get("https://google.com/")
 
 # Print the page title
 print(f"Page Title: {driver.title}")
