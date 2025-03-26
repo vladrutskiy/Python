@@ -2,7 +2,7 @@
 def calculation ():
     num1 = int(input("Please enter first number: "))
     num2 = int(input("Please enter second number: "))
-    num3 = int(input("Please enter thisrd number: "))
+    num3 = int(input("Please enter third number: "))
     add_two_nums = num1 + num2
     mult_two_nums= num1 * num2
     sqr_rt_num1 = num1 ** 0.5
